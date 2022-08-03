@@ -1,0 +1,95 @@
+.container-register {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    padding: 50px 30px;
+}
+
+.register h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #7978D9;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register__form label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #484848;
+    margin-bottom: 6px;
+}
+
+.register__form input {
+    all: unset;
+    box-sizing: border-box;
+    border: 1px solid #555555;
+    border-radius: 5px;
+
+    width: 449px;
+    height: 50px;
+
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.register__form span {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.register__form button {
+    background: #7978D9;
+    border-radius: 5px;
+
+    width: 449px;
+    height: 45px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.register a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #7B61FF;
+    cursor: pointer;
+}
